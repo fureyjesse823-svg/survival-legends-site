@@ -259,15 +259,10 @@
     100% { filter: brightness(1.18); }
   }
   .hero h1 .glow-g {
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(180deg, #f5a623 0%, #ff6b35 40%, #ff2d55 100%);
-    background-clip: text;
-    filter: drop-shadow(0 0 18px rgba(245,166,35,0.7)) drop-shadow(0 0 35px rgba(255,45,85,0.4));
-    animation: gPulse 3s ease-in-out infinite;
-  }
-  @keyframes gPulse {
-    0%, 100% { filter: drop-shadow(0 0 18px rgba(245,166,35,0.7)) drop-shadow(0 0 35px rgba(255,45,85,0.4)); }
-    50%      { filter: drop-shadow(0 0 28px rgba(245,166,35,1.0)) drop-shadow(0 0 55px rgba(255,45,85,0.7)); }
+    color: #f5a623;
+    -webkit-text-fill-color: #f5a623;
+    font-weight: 900;
+    text-shadow: 0 0 20px rgba(245,166,35,0.3);
   }
   .hero-sub {
     font-size: clamp(1.1rem, 2.4vw, 1.3rem);
